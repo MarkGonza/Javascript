@@ -5,6 +5,18 @@
 // My favorate Song is "Californication" by Red Hot Chili Peppers 
 
 
+/*
+
+=================================================
+Please tell me Whats wrong with this on my email. 
+markygonsalves@gamil.com
+This is the fifth time i am submitting it.
+I want to move on to the next topic. 
+=================================================
+
+
+*/
+
 
 /*
 details 
@@ -24,6 +36,16 @@ var recordsSold ="15 Million";
 var IsSongOnYoutube =true;
 var YoutubeViews =749435049;
 
+var similarartist = ["Eagles","Linkin park","Snow patrol","Greenday","Pink Floyd"];
+
+var Address = {
+building : "Californication",
+street : "Red Hot Chili Peppers street",
+state : "Los Angeles",
+country : "USA",
+INusa : true,
+}
+
 //display some detials
 console.log("Console log :-")
 console.log(title);
@@ -38,6 +60,11 @@ console.log(album);
 console.log(recordsSold);
 console.log(IsSongOnYoutube);
 console.log(YoutubeViews);
+
+console.log(similarartist);
+console.log(Address);
+
+
 
 var Songdetails = {
 songName : "Californication",
@@ -78,6 +105,4 @@ function SongConstructor(title,artist,year,isGood){
 
 var WishYou = new SongConstructor("Wish You Were Here", "Pink Floyd", 1975, true);
 
-
-console.log(WishYou.artist);
 
